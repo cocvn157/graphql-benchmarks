@@ -1,0 +1,12 @@
+{
+  "name": "graphql-benchmarks-analyzer",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/analyze/parser.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
